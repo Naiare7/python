@@ -5,16 +5,16 @@
 # try:                                # Intenta ejecutar este bloque de código
 #   print(x)
 # except:                             # Si ocurre un error en el bloque anterior (ej. 'x' no está definida),
-#                                     #se ejecuta este bloque para evitar que   el programa se detenga.
-#   print("An exception occurred")
+#   print("An exception occurred")      #se ejecuta este bloque para evitar que   el programa se detenga.
+#   
 
 #========================================================================================================================================#
 
 # Ejemplo 2
 
 # try:
-#     numero = 10 / 0  # Esto va a fallar
-#     print("¡Hecho!") # Esta línea nunca se ejecutará
+#     numero = 10 / 0           # Esto va a fallar
+#     print("¡Hecho!")          # Esta línea nunca se ejecutará
 # except:
 #     print("Oye, no puedes dividir por cero.")
 
