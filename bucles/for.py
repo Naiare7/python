@@ -24,6 +24,27 @@
 #     print(f"La {fruta} cuesta {precio} euros.")
 
 
+# print("\n#=============================================EJEMPLO 4==========================================================#\n")
+
+# precios = [100, 25, 150, 40, 500]
+# precios_con_descuento = []
+
+# # Usamos el FOR para revisar cada precio uno por uno
+# for precio in precios:
+#     # Si el precio es mayor a 50, aplicamos el descuento
+#     if precio > 50:
+#         nuevo_precio = precio * 0.80
+#         print(f"Producto de ${precio} rebajado a: ${nuevo_precio}")
+#     else:
+#         nuevo_precio = precio
+#         print(f"Producto de ${precio} mantiene su precio.")
+    
+#     # Guardamos el resultado en nuestra nueva lista
+#     precios_con_descuento.append(nuevo_precio)
+
+# print(f"\nLista final de precios: {precios_con_descuento}")
+
+
 # print("\n#========================================FOR IN RANGE=========================================================#\n")
 
 # Si solo pasas un número, Python asume que empiezas en 0 y quieres llegar justo antes de ese número.
