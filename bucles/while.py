@@ -19,7 +19,7 @@ while litros_actuales < capacidad_maxima:
 print("¡El depósito está lleno!")
 
 # ---------------------------------------------------------
-# OTRO EJEMPLO SENCILLO: Palabra mágica
+# Palabra mágica
 # El programa se repite hasta que el usuario adivine la palabra.
 
 palabra_secreta = "python"
