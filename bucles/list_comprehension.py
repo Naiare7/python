@@ -8,7 +8,7 @@
 
 nombres = ["Ana", "Roberto", "Luz", "Catalina", "Juan", "Pedro"]
 
-# FORMA TRADICIONAL (Para juniors que vienen de otros lenguajes)
+# FORMA TRADICIONAL
 nombres_cortos_tradicional = []
 for nombre in nombres:
     if len(nombre) <= 4:
