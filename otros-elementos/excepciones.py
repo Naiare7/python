@@ -5,7 +5,7 @@
 # try:                                # Intenta ejecutar este bloque de código
 #   print(x)
 # except:                             # Si ocurre un error en el bloque anterior (ej. 'x' no está definida),
-#   print("An exception occurred")      #se ejecuta este bloque para evitar que   el programa se detenga.
+#   print("An exception occurred")      #se ejecuta este bloque para evitar que el programa se detenga.
 #   
 
 #========================================================================================================================================#
@@ -13,7 +13,7 @@
 # Ejemplo 2
 
 # try:
-#     numero = 10 / 0           # Esto va a fallar
+#     numero = 10 / 0           
 #     print("¡Hecho!")          # Esta línea nunca se ejecutará
 # except:
 #     print("Oye, no puedes dividir por cero.")
@@ -45,18 +45,19 @@
 # try:
 #     x = 1/0
 # except NameError:
-#      print("You have a variable that is not defined.")    # Se ejecuta si intentas usar una variable que no ha sido declarada
+#      print("You have a variable that is not defined.")    
    
 
-# except TypeError:                                           # Se ejecuta si realizas una operación con tipos de datos incompatibles
-#     print("You are comparing values of different type")     # (Ejemplo: sumar un número con una cadena de texto)
+# except TypeError:                                           
+#     print("You are comparing values of different type")     
 
     
 
 # except:
-#     print(f"Something else went wrong")                     # El bloque "except" genérico captura cualquier otro error no especificado arriba.
-                                                            # En este script, aquí es donde entrará el error de "división por cero"
-                                                            # ya que no definiste un bloque específico para ZeroDivisionError.
+#     print(f"Something else went wrong")                     
+    
+# El bloque "except" genérico captura cualquier otro error no especificado arriba.
+                                                              
     
 #===========================================================================================================================================#
 
@@ -93,16 +94,18 @@
 # Ejemplo 1
 
 # try:
-#   f = open("demofile.txt")              # Intenta abrir el archivo. Por defecto es modo lectura ('r')
-#   try:
-#     f.write("Lorum Ipsum")              # Intenta escribir. Esto fallará porque el archivo no se abrió en modo escritura ('w' o 'a')
-#   except:                               # Se ejecuta si hay un error al intentar escribir
-#     print("Something went wrong when writing to the file")
-#   finally:                              
-#     f.close()                           # Se asegura de cerrar el archivo siempre, ocurra o no un error
-# except:                                 # Se ejecuta si el archivo no existe o no se pudo abrir
-#   print("Something went wrong when opening the file")
+#     print("1. Intentando realizar una operación...")
+#     numero = 10 / 0  # Esto causará un error
+# except ZeroDivisionError:
+#     print("2. ¡Error! No se puede dividir por cero.")
+# finally:
+#     # Este bloque se ejecuta pase lo que pase
+#     print("3. Finalizado: Limpieza ejecutada.")
 
+# 1. El programa entra aquí primero e intenta ejecutar el código
+# 2. Esta línea genera un error (división por cero) y salta de inmediato al 'except'
+# 3. Como ocurrió un error de división por cero, este bloque lo captura
+# 4. Sin importar si hubo error o no, este bloque se ejecuta OBLIGATORIAMENTE,se usa para tareas de limpieza (como cerrar archivos o liberar memoria)
 
 #=====================================================================================================================#
 
@@ -122,3 +125,7 @@
 
 #=====================================================================================================================#
 #=====================================================================================================================#
+
+
+
+

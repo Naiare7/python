@@ -20,13 +20,13 @@
 # objetivo = "Bilbao"
 # posiciones = []
 
-# Usamos enumerate para obtener el índice (i) y el valor (ciudad) al mismo tiempo
-
 # for i, ciudad in enumerate(ciudades):
 #     if ciudad == objetivo:
 #         posiciones.append(i)
 
 # print(f"La ciudad '{objetivo}' se encontró en los índices: {posiciones}")
+
+# Usamos enumerate para obtener el índice (i) y el valor (ciudad) al mismo tiempo
 
 #=================================================================================================================================#
 #=================================================================================================================================#
