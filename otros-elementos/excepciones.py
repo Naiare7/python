@@ -74,16 +74,17 @@
 # Ejemplo 2
 
 # try:
-#     # Solo ponemos la operación que puede fallar (abrir el archivo)
 #     archivo = open("datos.txt", "r")
 # except FileNotFoundError:
 #     print("Error: El archivo no existe.")
+
 # else:
-#     # Esto solo corre si el archivo se abrió correctamente
 #     contenido = archivo.read()
 #     print("Contenido leído con éxito.")
 #     archivo.close()
 
+# Solo ponemos la operación que puede fallar (abrir el archivo)
+# Esto solo corre si el archivo se abrió correctamente
 #=====================================================================================================================#
 #=====================================================================================================================#
 
