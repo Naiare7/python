@@ -1,7 +1,7 @@
 #BREAK
 # Ejemplo 1:
 
-# Itera hasta 10, pero interrumpe el bucle cuando i es igual a 5 usando break.
+#Itera hasta 10, pero interrumpe el bucle cuando i es igual a 5 usando break.
 
 # for i in range(10):
 #     if i ==5:
@@ -13,11 +13,13 @@
 #Ejemplo 2:
 
 
-for n in range(2, 10):                            # Iteramos sobre los números del 2 al 9
-     for x in range(2, n):                        # Intentamos encontrar un divisor (x) para el número actual (n)
-         if n % x == 0:                           # Si el residuo es 0, n no es primo
-             print(f"{n} equals {x} * {n//x}")    # Imprime la descomposición y detiene la búsqueda para este n
-         break
+# for n in range(2, 10):                            # Iteramos sobre los números del 2 al 9
+#      for x in range(2, n):                        # Intentamos encontrar un divisor (x) para el número actual (n)
+#          if n % x == 0:                           # Si el residuo es 0, n no es primo
+#              print(f"{n} equals {x} * {n//x}")    # Imprime la descomposición y detiene la búsqueda para este n
+#          break
+     
+
 #             
 #=============================================================================================================================#
 #=============================================================================================================================#

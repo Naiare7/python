@@ -3,32 +3,31 @@
 # ==========================================
 
 
-
 # EJERCICIO: El depósito de agua
-# Tenemos un depósito de 10 litros y lo vamos llenando de 2 en 2.
+# Llenamos un depósito de 10 litros de 2 en 2.
 
-capacidad_maxima = 10
-litros_actuales = 0
+# capacidad_maxima = 10  # capacidad en litros
+# litros_actuales = 0    # cantidad inicial
 
-print(f"Estado inicial: {litros_actuales} litros.")
+# print(f"Estado inicial: {litros_actuales} litros.")  # mostrar estado
 
-while litros_actuales < capacidad_maxima:
-    litros_actuales += 2
-    print(f"Llenando... Ahora hay {litros_actuales} litros.")
+# while litros_actuales < capacidad_maxima:
+#     litros_actuales += 2  # añadimos 2 litros por iteración
+#     print(f"Llenando... Ahora hay {litros_actuales} litros.")  # mostrar progreso
 
-print("¡El depósito está lleno!")
+# print("¡El depósito está lleno!")  # aviso final
 
 # ---------------------------------------------------------
-# Palabra mágica
-# El programa se repite hasta que el usuario adivine la palabra.
+# # Palabra mágica
+# # Bucle que pide al usuario hasta acertar la palabra secreta.
 
-palabra_secreta = "python"
-intento = ""
+# palabra_secreta = "python"  # palabra objetivo
+# intento = ""                 # variable para almacenar el intento
 
-print("\n--- Juego de la Palabra Secreta ---")
-while intento.lower() != palabra_secreta:
-    intento = input("Adivina la palabra secreta: ")
-    if intento.lower() != palabra_secreta:
-        print("Casi... ¡inténtalo de nuevo!")
+# print("\n--- Juego de la Palabra Secreta ---")
+# while intento.lower() != palabra_secreta:
+#     intento = input("Adivina la palabra secreta: ")  # pedimos intento
+#     if intento.lower() != palabra_secreta:
+#         print("Casi... ¡inténtalo de nuevo!")  # pista en caso de fallo
 
-print("¡Felicidades! Adivinaste la palabra.")
+# print("¡Felicidades! Adivinaste la palabra.")  # mensaje de éxito

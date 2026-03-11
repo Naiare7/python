@@ -16,15 +16,15 @@
 
 # Ejemplo 2
 
-# ciudades = ["Barcelona", "Bilbao", "Sevilla", "Bilbao", "Valencia", "Bilbao"]
-# objetivo = "Bilbao"
-# posiciones = []
+ciudades = ["Barcelona", "Bilbao", "Sevilla", "Bilbao", "Valencia", "Bilbao"]
+objetivo = "Bilbao"
+posiciones = []
 
 # for i, ciudad in enumerate(ciudades):
 #     if ciudad == objetivo:
 #         posiciones.append(i)
 
-# print(f"La ciudad '{objetivo}' se encontró en los índices: {posiciones}")
+#     print(f"La ciudad '{objetivo}' se encontró en los índices: {posiciones}")
 
 # Usamos enumerate para obtener el índice (i) y el valor (ciudad) al mismo tiempo
 
@@ -52,7 +52,7 @@
 
 
 # temperaturas = [22, 25, 24, 28, 30, 29, 31]
-# # Dias:         0   1   2   3   4   5   6
+# Dias:         0   1   2   3   4   5   6
 
 # print("--- Reporte de Incrementos ---")
 
