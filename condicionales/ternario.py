@@ -6,19 +6,6 @@
 # print(mensaje)
 
 
-#_______________________________________________________________________________________________________#
-
-# 1. Pedimos los datos al usuario
-# 2. Aplicamos el ternario
-# Si 'apodo_usuario' es una cadena vacía "", Python lo evalúa como False
-
-nombre_cuenta = "User_default_69"
-apodo_usuario = input("Introduce tu apodo (o deja vacío para usar el de cuenta): ")
-
-nombre_a_mostrar = apodo_usuario if apodo_usuario else nombre_cuenta
-
-print(f"Hola, {nombre_a_mostrar}!")
-
 
 #_______________________________________________________________________________________________________#
 
@@ -62,3 +49,17 @@ print(f"Hola, {nombre_a_mostrar}!")
 # estado = ("Menor", "Adulto")[edad >= 18]
 
 # print(f"Eres un {estado}.")
+
+
+#_______________________________________________________________________________________________________#
+
+# 1. Pedimos los datos al usuario
+# 2. Aplicamos el ternario
+# Si 'apodo_usuario' es una cadena vacía "", Python lo evalúa como False
+
+# nombre_cuenta = "User_default_69"
+# apodo_usuario = input("Introduce tu apodo (o deja vacío para usar el de cuenta): ")
+
+# nombre_a_mostrar = apodo_usuario if apodo_usuario else nombre_cuenta
+
+# print(f"Hola, {nombre_a_mostrar}!")
